@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="test-opencv" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\share\;CMake Files\..\..\..\..\usr\share\OpenCV\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/lee/Desktop/cp_hw2" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lee/Desktop/cp_hw2/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lee/Desktop/cp_hw2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lee/Desktop/cp_hw2/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lee/Desktop/cp_hw2/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="edit_cache">
+         <Option working_dir="/home/lee/Desktop/cp_hw2" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lee/Desktop/cp_hw2/Makefile&quot;  VERBOSE=1 edit_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lee/Desktop/cp_hw2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lee/Desktop/cp_hw2/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lee/Desktop/cp_hw2/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/home/lee/Desktop/cp_hw2" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lee/Desktop/cp_hw2/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lee/Desktop/cp_hw2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lee/Desktop/cp_hw2/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lee/Desktop/cp_hw2/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="test-opencv">
+         <Option output="/home/lee/Desktop/cp_hw2/test-opencv" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lee/Desktop/cp_hw2" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/opencv" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lee/Desktop/cp_hw2/Makefile&quot;  VERBOSE=1 test-opencv" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lee/Desktop/cp_hw2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lee/Desktop/cp_hw2/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lee/Desktop/cp_hw2/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="test-opencv/fast">
+         <Option output="/home/lee/Desktop/cp_hw2/test-opencv" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lee/Desktop/cp_hw2" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/opencv" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lee/Desktop/cp_hw2/Makefile&quot;  VERBOSE=1 test-opencv/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lee/Desktop/cp_hw2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lee/Desktop/cp_hw2/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lee/Desktop/cp_hw2/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/lee/Desktop/cp_hw2/Conjugate.cpp">
+         <Option target="test-opencv"/>
+      </Unit>
+      <Unit filename="/home/lee/Desktop/cp_hw2/GaussSeidel.cpp">
+         <Option target="test-opencv"/>
+      </Unit>
+      <Unit filename="/home/lee/Desktop/cp_hw2/Mysparse.cpp">
+         <Option target="test-opencv"/>
+      </Unit>
+      <Unit filename="/home/lee/Desktop/cp_hw2/Mysparse.h">
+         <Option target="test-opencv"/>
+      </Unit>
+      <Unit filename="/home/lee/Desktop/cp_hw2/main.cpp">
+         <Option target="test-opencv"/>
+      </Unit>
+      <Unit filename="/home/lee/Desktop/cp_hw2/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/lee/Desktop/cp_hw2/../../../../usr/share/OpenCV/OpenCVConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/lee/Desktop/cp_hw2/../../../../usr/share/OpenCV/OpenCVConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/lee/Desktop/cp_hw2/../../../../usr/share/OpenCV/OpenCVModules.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/lee/Desktop/cp_hw2/../../../../usr/share/OpenCV/OpenCVModules-release.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\share\OpenCV\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>
